@@ -28,3 +28,10 @@ Driver program demonstrates the graph operations:
 - Creates a graph with 6 vertices and edges.
 - Uses `findShortestPath` to calculate the shortest path length between vertex 1 and 6.
 - Calls `printPath` to display the shortest path (currently incomplete).
+
+## How to Compile and Run
+Use the following commands to compile and execute:
+
+```bash
+g++ -o graph main.cpp Graph.cpp
+./graph
